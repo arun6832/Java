@@ -1,7 +1,7 @@
 import java.io.*;
 
 class Add {
-    static int addition(int a, int b,char opr) {
+    static int addition(int a, int b) {
         return a + b;
     }
 
@@ -10,3 +10,4 @@ class Add {
         System.out.println(result);
     }
 }
+
