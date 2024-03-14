@@ -78,7 +78,7 @@ public class FourFunc {
         return res;
     }
 
-    static float compute_np_nr() {
+    static void compute_np_nr() {
         float res = 0;
         System.out.println("Enter the Number 1 : ");
         int n1 = Integer.parseInt(scan.nextLine());
@@ -105,7 +105,7 @@ public class FourFunc {
                 res = (float) n1 / n2;
                 break;
         }
-        return res;
+       
     }
 
     public static void main(String[] args) {
@@ -158,3 +158,4 @@ public class FourFunc {
         } while (option == 'y');
     }
 }
+    
