@@ -158,4 +158,3 @@ public class FourFunc {
         } while (option == 'y');
     }
 }
-    

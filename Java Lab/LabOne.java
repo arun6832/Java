@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LabOne {
 
     static Scanner scan = new Scanner(System.in);
-    static float sum = 0;
+    static float sum = 0; 
     static int count = 0;
     static int min = Integer.MAX_VALUE;
     static int max = Integer.MIN_VALUE;
@@ -24,6 +24,14 @@ public class LabOne {
         max = max(max, Number);
     }
 
+    static int min(int a, int b){
+        return a < b ? a : b;
+    }
+
+    static int max(int a, int b){
+        return a > b ? a : b;
+    }
+    
     public static void main(String[] args){
         boolean exit = false;
         do {
@@ -74,13 +82,5 @@ public class LabOne {
     static void clearScreen(){
         System.out.print("\033[H\033[2J");
         System.out.flush();
-    }
-
-    static int min(int a, int b){
-        return a < b ? a : b;
-    }
-
-    static int max(int a, int b){
-        return a > b ? a : b;
     }
 }
