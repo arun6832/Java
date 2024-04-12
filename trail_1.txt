@@ -1,0 +1,1 @@
+This is one simple way to write data to a file in java
