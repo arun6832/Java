@@ -1,0 +1,1 @@
+Name: Arun, Gender: male, Income: 50000, Net Income: 45000.0

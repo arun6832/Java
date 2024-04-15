@@ -1,0 +1,3 @@
+Name: Arun, Gender: male, Net Income: 234000.0
+Name: Anand, Gender: male, Net Income: 450000.0
+Name: Aleena, Gender: female, Net Income: 276000.0

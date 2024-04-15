@@ -129,7 +129,7 @@ public class FourFunc {
                     char op = scan.nextLine().charAt(0);
                     res = compute_wp_wr(n1, n2, op);
                     break;
-
+                
                 case 2:
                     System.out.println("Enter the Number 1 : ");
                     n1 = Integer.parseInt(scan.nextLine());

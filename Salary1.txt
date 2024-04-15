@@ -1,0 +1,2 @@
+Name: Arun, Gender: male, Income : 200000,Net Income: 180000.0
+Name: aleena, Gender: female, Income : 500000,Net Income: 460000.0

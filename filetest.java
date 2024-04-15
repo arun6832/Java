@@ -6,11 +6,12 @@ import java.util.Scanner;
 public class filetest {
     public static void main(String[] args) {
         try {
-            File myFileObj = new File("table3.txt");
+            File myFileObj = new File("test.json");
             Scanner scan = new Scanner(System.in);
             if (myFileObj.createNewFile()) {
                 System.out.println("File created: " + myFileObj.getName());
-                FileWriter myWriter = new FileWriter("table3.txt");
+                FileWriter myWriter = new FileWriter("test.json");
+                System.out.print("Enter the Number");
                 int n = scan.nextInt();
                 for (int i = 1; i <= n; i++) {
                     int data = i * 5;
