@@ -6,7 +6,6 @@ class Student {
     private String email;
     private String course;
     private int year;
-}
 
     Student(String name, int id, String email, String course, int year) {
         this.name = name;
@@ -15,17 +14,17 @@ class Student {
         this.course = course;
         this.year = year;
     }
-    
-
+}
+ 
 public class cat23122110 {
-    Student stu = new Student();
+    // Student stu = new Student();
     public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         int choice = Integer.parseInt(scan.nextLine());
-        do{
+        do {
             System.out.println("Enter Your Choice 😌 :");
             System.out.println("1.Search a Student Details");
             System.out.println("2.Exit");
-        }while(exit!=choice);
+        } while (choice == 5);
     }
 }
